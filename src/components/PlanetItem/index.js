@@ -11,7 +11,7 @@ const PlanetItem = props => {
 
   return (
     <PlanetItemContainer>
-      <PlanetImage url={imageUrl} alt={`planet ${name}`} />
+      <PlanetImage src={imageUrl} alt={`planet ${name}`} />
       <PlanetTitle>{name}</PlanetTitle>
       <PlanetDescription>{description}</PlanetDescription>
     </PlanetItemContainer>

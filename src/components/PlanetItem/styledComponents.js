@@ -7,9 +7,12 @@ export const PlanetItemContainer = styled.div`
   align-items: center;
 `
 export const PlanetImage = styled.img`
-  width: 250px;
+  width: 270px;
   height: 250px;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    width: 350px;
+  }
 `
 export const PlanetTitle = styled.h1`
 color: #f8fafc;
